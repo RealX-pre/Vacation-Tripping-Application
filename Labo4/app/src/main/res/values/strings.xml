@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Lab4</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="cancel">Cancel</string>
+    <string name="register2">Register</string>
+    <string name="age">Age</string>
+    <string name="number">Number</string>
+    <string name="change_information">Change Information</string>
+    <string name="change_password">Change password</string>
+    <string name="day_of_birth">Day of birth</string>
+    <string name="gender">Gender</string>
+    <string name="date_picker">Date Picker</string>
+    <string name="updatedata">Update Data</string>
+    <string name="id">ID</string>
+    <string name="saveBtn">Save data</string>
+    <string name="male_female">Male / Female</string>
+    <string name="oldpassword">Old password</string>
+    <string name="newpassword">New password</string>
+    <string name="cnf_newpassword">Confirm new password</string>
+    <string name="viewinformation">View Information</string>
+
+
+</resources>

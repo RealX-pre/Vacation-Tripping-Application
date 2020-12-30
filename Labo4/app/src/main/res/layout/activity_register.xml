@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Register Activity"
+        android:textColor="	#000000"
+        android:textSize="24dp"></TextView>
+
+    <EditText
+        android:id="@+id/edittext_username"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/username"></EditText>
+    <EditText
+        android:id="@+id/edittext_age"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:hint="@string/age"></EditText>
+    <EditText
+        android:id="@+id/edittext_number"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:hint="@string/number"></EditText>
+
+
+    <Button
+        android:id="@+id/datepicker"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:text="Date picker"
+        android:hint="@string/date_picker"
+        app:layout_constraintBottom_toTopOf="@+id/date_text"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:id="@+id/date_text"
+        android:hint="@string/day_of_birth"
+        app:layout_constraintTop_toBottomOf="@+id/show_dialog"
+        android:textSize="30sp"/>
+    <EditText
+        android:id="@+id/edittext_password"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:hint="@string/password"></EditText>
+    <EditText
+        android:id="@+id/edittext_cnf_password"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:hint="@string/confirm_password"></EditText>
+    <RadioGroup
+        android:orientation="horizontal"
+        android:id="@+id/gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/gender"
+        android:layout_marginTop="20dp">
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Male"
+            android:checked="true"></RadioButton>
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Female"
+            android:checked="true"></RadioButton>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_register"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/register"></Button>
+    <Button
+        android:id="@+id/button_cancel"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/cancel"></Button>
+
+</LinearLayout>

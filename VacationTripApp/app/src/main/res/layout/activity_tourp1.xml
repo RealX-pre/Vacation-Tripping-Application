@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tours.Tourp1">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout3"
+        android:layout_width="404dp"
+        android:layout_height="58dp"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="222dp"
+            android:layout_marginRight="222dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Хөдөө орон нутгийн үзэсгэлэнт газрууд "
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.117"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.666" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/home_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="13dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="44dp"
+            android:layout_marginEnd="44dp"
+            android:layout_marginRight="44dp"
+            android:fontFamily="@font/rubik_medium"
+            android:text="Make Your Dream"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="125dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/user1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="?attr/colorButtonNormal"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="homeScreen"
+            app:srcCompat="@drawable/ic_baseline_home_24" />
+
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="tourScreen"
+            app:srcCompat="@drawable/ic_baseline_spa_24" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="logout"
+            app:srcCompat="@drawable/ic_baseline_exit_to_app_24" />
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="384dp"
+        android:layout_height="474dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout3">
+
+        <TextView
+            android:id="@+id/country_name7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Уран тогоо уул"
+            app:layout_constraintStart_toStartOf="@+id/place_name4"
+            app:layout_constraintTop_toBottomOf="@+id/place_name4" />
+
+        <TextView
+            android:id="@+id/price5"
+            android:layout_width="69dp"
+            android:layout_height="21dp"
+            android:text="318KM"
+            app:layout_constraintStart_toStartOf="@+id/country_name7"
+            app:layout_constraintTop_toBottomOf="@+id/country_name7" />
+
+        <TextView
+            android:id="@+id/place_name4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="БУЛГАН АЙМАГ"
+            app:layout_constraintStart_toStartOf="@+id/place_image7"
+            app:layout_constraintTop_toBottomOf="@+id/place_image7" />
+
+        <TextView
+            android:id="@+id/price3"
+            android:layout_width="69dp"
+            android:layout_height="0dp"
+            android:text="1279KM"
+            app:layout_constraintStart_toStartOf="@+id/country_name6"
+            app:layout_constraintTop_toBottomOf="@+id/country_name6" />
+
+        <TextView
+            android:id="@+id/country_name6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Бага түргэний хүрхрээ"
+            app:layout_constraintStart_toStartOf="@+id/place_name3"
+            app:layout_constraintTop_toBottomOf="@+id/place_name3" />
+
+        <ImageView
+            android:id="@+id/place_image7"
+            android:layout_width="169dp"
+            android:layout_height="176dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:onClick="aimag4"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toTopOf="@+id/place_name4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/price3"
+            app:srcCompat="@drawable/aimag4" />
+
+        <ImageView
+            android:id="@+id/place_image"
+            android:layout_width="169dp"
+            android:layout_height="176dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:onClick="aimag2"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toTopOf="@+id/place_name3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/aimag2" />
+
+        <TextView
+            android:id="@+id/place_name3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="БАЯН-ӨЛГИЙ АЙМАГ"
+            app:layout_constraintStart_toStartOf="@+id/place_image"
+            app:layout_constraintTop_toBottomOf="@+id/place_image" />
+
+        <TextView
+            android:id="@+id/price2"
+            android:layout_width="69dp"
+            android:layout_height="21dp"
+            android:text="605KM"
+            app:layout_constraintStart_toStartOf="@+id/country_name4"
+            app:layout_constraintTop_toBottomOf="@+id/country_name4" />
+
+        <TextView
+            android:id="@+id/country_name4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Цагаан агуй"
+            app:layout_constraintStart_toStartOf="@+id/place_name2"
+            app:layout_constraintTop_toBottomOf="@+id/place_name2" />
+
+        <TextView
+            android:id="@+id/place_name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="БАЯНХОНГОР АЙМАГ"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/place_image4" />
+
+        <ImageView
+            android:id="@+id/place_image5"
+            android:layout_width="169dp"
+            android:layout_height="176dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:onClick="aimag1"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toTopOf="@+id/place_name"
+            app:layout_constraintEnd_toStartOf="@+id/place_image"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/aimag1" />
+
+        <ImageView
+            android:id="@+id/place_image4"
+            android:layout_width="169dp"
+            android:layout_height="176dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:onClick="aimag3"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toTopOf="@+id/place_name2"
+            app:layout_constraintEnd_toStartOf="@+id/place_image7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/price"
+            app:srcCompat="@drawable/aimag3" />
+
+        <TextView
+            android:id="@+id/place_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="АРХАНГАЙ АЙМАГ"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/place_image5" />
+
+        <TextView
+            android:id="@+id/country_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Тэрхийн цагаан нуур"
+            app:layout_constraintStart_toStartOf="@+id/place_name"
+            app:layout_constraintTop_toBottomOf="@+id/place_name" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="69dp"
+            android:layout_height="21dp"
+            android:text="520KM"
+            app:layout_constraintStart_toStartOf="@+id/country_name"
+            app:layout_constraintTop_toBottomOf="@+id/country_name" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginRight="130dp"
+        android:onClick="tonextpage2aimag"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_baseline_arrow_right_24" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:text="Page1"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.538" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

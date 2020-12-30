@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ac2">
+
+  <TextView
+      android:id="@+id/tv_date"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="100dp"
+      android:layout_marginTop="50dp"
+      android:text="Select Date"
+      android:textSize="40sp"></TextView>
+
+  <EditText
+      android:id="@+id/et_date"
+      android:layout_width="200dp"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:hint="select_date"
+      android:textAlignment="center"
+      android:textSize="30sp"></EditText>
+
+  <Button
+      android:id="@+id/ok"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:onClick="clickok"
+      android:text="@string/ok"
+      android:textSize="25dp"></Button>
+
+  <Button
+      android:id="@+id/cancel"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:onClick="clickcancel"
+      android:text="@string/cancel"
+      android:textSize="25dp"></Button>
+
+
+
+
+
+</TableLayout>

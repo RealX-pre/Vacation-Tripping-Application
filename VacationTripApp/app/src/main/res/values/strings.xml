@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">VacationTripApp</string>
+    <string name="title_activity_map1">Map</string>
+    <string name="title_activity_map2">Map</string>
+    <string name="title_activity_map3">Map</string>
+    <string name="title_activity_map4">Map</string>
+    <string name="title_activity_map5">Map</string>
+    <string name="title_activity_map6">Map</string>
+    <string name="title_activity_map7">Map</string>
+    <string name="title_activity_map8">Map</string>
+    <string name="title_activity_map9">Map</string>
+    <string name="title_activity_map10">Map</string>
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lab6</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="your_profession">Your Profession</string>
+    <string name="your_age">Your Age</string>
+    <string name="your_gender">Your Gender</string>
+    <string name="your_first_name">Your First Name</string>
+    <string name="enter_lesson">Enter Lesson</string>
+    <string name="your_last_name">Your Last Name</string>
+    <string name="enter_rank">Enter Rank</string>
+    <string name="second_fragment">Second Fragment</string>
+</resources>

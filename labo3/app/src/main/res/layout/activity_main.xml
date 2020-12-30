@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/act1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startfirst"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:text="@string/activity1"
+        android:textSize="25dp"></Button>
+    <Button
+        android:id="@+id/act2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startsecond"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="50dp"
+        android:text="@string/activity2"
+        android:textSize="25dp"></Button>
+    <Button
+        android:id="@+id/act3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startthird"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="50dp"
+        android:text="@string/activity3"
+        android:textSize="25dp"></Button>
+
+    <Button
+        android:id="@+id/act4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startfourth"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="50dp"
+        android:text="@string/activity4"
+        android:textSize="25dp"></Button>
+
+
+</RelativeLayout>

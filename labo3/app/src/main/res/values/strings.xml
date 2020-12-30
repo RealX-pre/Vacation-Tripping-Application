@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LAbo3</string>
+    <string name="activity1">Activity 1</string>
+    <string name="activity2">Activity 2</string>
+    <string name="activity3">Activity 3</string>
+    <string name="activity4">Activity 4</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+
+
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab5</string>
+    <string name="seecontact">See Contacts</string>
+    <string name="seecalendar">See Calendar</string>
+    <string name="save">Save</string>
+    <string name="enter_event_name">Enter Event Name</string>
+    <string name="app">app</string>
+        <string name="Lab4">Lab 4</string>
+</resources>

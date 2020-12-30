@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ac3">
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Эрэгтэй"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"></RadioButton>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Эмэгтэй"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"></RadioButton>
+    <TextView
+        android:id="@+id/tv_timer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Select Time"
+        android:text="Selected Time"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:drawableTop="@drawable/ic_time"
+        android:drawablePadding="16dp"
+        android:background="@android:drawable/editbox_background"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_timer2"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:hint="Select Time"
+        android:drawableTop="@drawable/ic_time"
+        android:drawablePadding="16dp"
+        android:background="@android:drawable/editbox_background"
+
+        ></TextView>
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="clickok"
+
+
+        android:text="@string/ok"
+        android:textSize="25sp"></Button>
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="clickcancel"
+
+        android:text="@string/cancel"
+        android:textSize="20sp"></Button>
+
+</TableLayout>

@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="result">Result</string>
+    <string name="value_a">Value A:</string>
+    <string name="value_b">Value B:</string>
+    <string name="aad">ADD</string>
+    <string name="subtraction">Subtraction</string>
+    <string name="multiply">Multiply</string>
+    <string name="divide">Divide</string>
+    <string name="app_name" />
+
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="User information Activity"
+        android:textColor="	#000000"
+        android:textSize="24dp"></TextView>
+
+    <EditText
+        android:id="@+id/edittext_username"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:hint="@string/username"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"></EditText>
+    <EditText
+        android:id="@+id/edittext_age"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/age"></EditText>
+    <EditText
+        android:id="@+id/gender"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/gender"></EditText>
+    <EditText
+        android:id="@+id/edittext_number"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/number"></EditText>
+    <TextView
+        android:id="@+id/date_text"
+        android:hint="@string/day_of_birth"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"></TextView>
+    <Button
+        android:id="@+id/view_inf"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:onClick="getData"
+        android:hint="@string/viewinformation"></Button>
+
+    <Button
+        android:id="@+id/change_inf"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/change_information"></Button>
+    <Button
+        android:id="@+id/change_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/change_password"></Button>
+
+
+</LinearLayout>
